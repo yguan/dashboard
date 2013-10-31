@@ -2,6 +2,10 @@
 
 This repository contains the source code of a Windows 8 style dashboard built with AngularJS, bootstrap, gridster, and angular-carousel.
 
+## Demo
+
+It's hosted [here](http://yguan.github.io/repos/dashboard/).
+
 ## UI Interaction
 
 ![](http://yguan.github.io/img/projects/dashboard.png)
