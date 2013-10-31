@@ -8,7 +8,7 @@ It's hosted [here](http://yguan.github.io/repos/dashboard/).
 
 ## UI Interaction
 
-![](http://yguan.github.io/img/projects/dashboard.png)
+[![](http://yguan.github.io/img/projects/dashboard.png)](http://yguan.github.io/repos/dashboard/)
 
 ### Manipulate the cards
 * <b>Resize Card:</b> Move the cursor to a card's right, bottom, or right bottom corner, and then drag to resize
