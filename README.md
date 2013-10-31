@@ -4,6 +4,8 @@ This repository contains the source code of a Windows 8 style dashboard built wi
 
 ## UI Interaction
 
+![](http://yguan.github.io/img/projects/dashboard.png)
+
 ### Manipulate the cards
 * <b>Resize Card:</b> Move the cursor to a card's right, bottom, or right bottom corner, and then drag to resize
 * <b>Move Card:</b> Click and drag the card
