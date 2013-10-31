@@ -44,6 +44,28 @@
 .inline-block {
   display: inline-block;
 }
+.animate-enter,
+.animate-leave {
+  -webkit-transition: 300ms cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  -moz-transition: 300ms cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  -ms-transition: 300ms cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  -o-transition: 300ms cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  transition: 300ms cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  position: relative;
+  display: block;
+}
+.animate-enter.animate-enter-active,
+.animate-leave {
+  opacity: 1;
+  top: 0;
+  height: 150px;
+}
+.animate-leave.animate-leave-active,
+.animate-enter {
+  opacity: 0;
+  top: -150px;
+  height: 0px;
+}
 .default-body-background-color {
   background-color: #220e58;
 }

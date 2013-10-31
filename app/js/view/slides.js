@@ -99,7 +99,8 @@ define(function (require, exports, module) {
         });
 
         $scope.slides = [
-            getDefaultSlide()
+            getDefaultSlide(),
+            getSlide(6)
         ];
 
         $scope.popover = {

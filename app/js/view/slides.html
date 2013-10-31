@@ -8,7 +8,7 @@
         <span class="glyphicon glyphicon-floppy-disk"></span>
     </div>
     <ul rn-carousel rn-carousel-buffered rn-carousel-index="currentSlide" class="slides">
-        <li ng-repeat="slide in slides">
+        <li ng-animate="'animate'" ng-repeat="slide in slides">
             <div class="slide">
                 <gridster class="gridster"
                           model="slide.cards"
