@@ -19,6 +19,10 @@ This repository contains the source code of a Windows 8 style dashboard built wi
 * Use left/right arrow key
 * Use mouse click on the top/bottom area (not on cards) and drag to left/right
 
+### For Touch Devices
+
+It seems to be working for Android Jelly Bean. To move the card, touch, and hold for a brief moment, then move the card. To resize, just touch the bottom right corner and move. To move slide, touch and move.
+
 ## Development
 
 #### Overview of Folder Structure
