@@ -1,0 +1,20 @@
+<div ng-controller="SlidesCtrl" class="main-view">
+    <div class="sidebar-menu">
+        <div class="glyphicon glyphicon-plus"
+             data-unique="1"
+             bs-popover="'js/view/add-slide.html'"
+             data-title="Add New Slide">
+        </div>
+        <span class="glyphicon glyphicon-floppy-disk"></span>
+    </div>
+    <ul rn-carousel rn-carousel-buffered rn-carousel-index="currentSlide" class="slides">
+        <li ng-repeat="slide in slides">
+            <div class="slide">
+                <gridster class="gridster"
+                          model="slide.cards"
+                          options="{ widget_margins: [5, 5], widget_base_dimensions: [100, 100], resize: {enabled: true} }">
+                </gridster>
+            </div>
+        </li>
+    </ul>
+</div>
