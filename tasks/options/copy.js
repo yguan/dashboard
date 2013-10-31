@@ -5,8 +5,6 @@ module.exports = {
                 expand: true,
                 cwd: '<%= folder.src %>/',
                 src: [
-                    'manifest.json',
-                    'icon.png',
                     'index.html',
                     'fonts/**',
                     'img/**',
